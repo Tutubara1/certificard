@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(88, 88, 88, 1) 71%,
+    rgba(144, 144, 144, 1) 92%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 100px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 50px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 500px;
+  max-width: 200px;
+  box-shadow: 2px 2px 2px black;
+  border: 3px solid transparent;
+  cursor: pointer;
+  transition: transform 0.4s, filter 0.5s;
+  margin: 1rem;
+}
+
+.perfil-foto:hover {
+  transform: scale(1.1);
+  border: 3px solid white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.titulo {
+  margin-left: 1rem;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px 10px;
+  background: #e0e0e0;
+}
+.tema button:hover {
+  background: #909090;
+  color: white;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #909090;
+  box-shadow: 4px 4px 4px #0e1d2f;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.projetos ul {
+  font-weigth: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.projetos li {
+  font-weigth: 400;
+  font-size: 16px;
+  line-height: 26px;
+  transition: transform 0.4s, filter 0.5s;
+}
+
+.projetos li:hover {
+  transform: scale(1.1);
+}
+
+.projetos a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.twitter-logo {
+  width: 32px;
+  transition: transform 0.4s, filter 0.5s;
+  margin-top: 1rem;
+  position: absolute;
+  right: 170px;
+}
+
+.twitter-logo:hover {
+  transform: scale(1.1);
+}
+
+.linkedin-logo {
+  width: 32px;
+  transition: transform 0.4s, filter 0.5s;
+  margin-top: 1rem;
+  position: absolute;
+  right: 230px;
+}
+
+.linkedin-logo:hover {
+  transform: scale(1.1);
+}
+
+.github-logo {
+  width: 32px;
+  transition: transform 0.4s, filter 0.5s;
+  margin-top: 1rem;
+  position: absolute;
+  right: 290px;
+}
+
+.github-logo:hover {
+  transform: scale(1.1);
+}
+
+#spoiler-filmes {
+  margin: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border: 3px solid transparent;
+}
+
+#spoiler-supertrunfo {
+  margin: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border: 3px solid transparent;
+}
+
+#spoiler-mentalista {
+  margin: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border: 3px solid transparent;
+}
+
+#spoiler-tabelaC {
+  margin: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border: 3px solid transparent;
+}
+
+#spoiler-CM {
+  margin: 1rem;
+  box-shadow: 2px 2px 2px black;
+  border: 3px solid transparent;
+}
+
+.dark {
+  background: rgb(242, 242, 242);
+  background: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 1) 0%,
+    rgba(105, 105, 105, 1) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+  transition: 300ms;
+}
+
+.dark .tema button:hover {
+  background: #f7f7f7;
+  color: #1c1c1c;
+}
