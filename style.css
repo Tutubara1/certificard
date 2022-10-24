@@ -185,6 +185,7 @@ li {
     rgba(105, 105, 105, 1) 90%,
     rgba(0, 0, 0, 1) 100%
   );
+  background-repeat: no-repeat;
 }
 
 .dark .container {
